@@ -1,0 +1,13 @@
+IEC60730 Project
+
+H/W resource:
+	It will spend 2 interrupt resource if User wants to verify interrupt test.
+	The interrupt resource is TM00 & TM10.
+	
+IEC60730 clcok:
+	The IEC60730 always keep in 12MHz that is IHRCO clocks source.
+	
+Test procedure:
+	Power or Reset -> running IEC60730 test item (User can decide which ones can be executed) -> main()
+	
+	
